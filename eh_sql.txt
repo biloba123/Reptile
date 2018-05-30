@@ -1,0 +1,12 @@
+create database empty_hand;
+
+use empty_hand;
+
+create table article(
+id int auto_increment not null,
+title varchar(40) not null,
+author varchar(40) not null,
+content text not null,
+date varchar(11) not null,
+primary key(id)
+);
